@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" href="favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <main>
+        <h1>Encontre seu Pokémon</h1>
+
+        <div class="pokemon-info">
+            <img src="#" alt="" class="pokemon__image">
+            <div class="pokemon__data">
+                <h2 class="pokemon__number"></h2>
+                <h2 class="pokemon__name"></h2>
+                <h2 class="pokemon__experience"></h2>
+                <h2 class="pokemon__abilities"></h2>
+                <h2 class="pokemon__weight"></h2>
+                <h2 class="pokemon__height"></h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container2">
+                <form class="form">
+                    <input type="search" class="input__search" id="poke_text" placeholder="Digite ele aqui: " required>
+                    <button id="pesquisarBtn" onclick="buscarPokemon()">Buscar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="button btn-prev" onclick="previousPokemon()">Prev &lt;</button>
+            <button class="button btn-next" onclick="nextPokemon()">Next &gt;</button>
+        </div>
+
+        <!-- Título acima da imagem da Pokédex -->
+        <h2 class="pokedex-title">Pokédex</h2>
+        <img src="imagens/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

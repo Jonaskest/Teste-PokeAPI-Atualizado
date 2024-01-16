@@ -1,0 +1,104 @@
+/* Adicione no final do seu CSS atual */
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+.pokemon-info {
+    text-align: center;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;    
+}
+
+.pokemon__image {
+    position: absolute;
+    bottom: 50.5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 18%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.pokemon__data {
+    position: absolute;
+    top: 43.5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* font-size: clamp(8px, 5vw, 1rem); */
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 8px;
+   
+}
+.pokedex-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.pokemon__name {
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+.form {
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.input__search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
+}
+#pesquisarBtn{
+    margin-top: 20px;
+    background-color: #444;
+    color: white;
+    border: 2px solid #000;
+    font-weight: 600;
+    box-shadow: -1px 1px 0 #222, -1px 3px 0 #000;
+}
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
