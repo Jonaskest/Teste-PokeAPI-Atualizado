@@ -1,2 +1,2 @@
 # Teste-PokeAPI-Atualizado
-Teste prático de Front End para visualizar informações sobre os variados tipos de pokémon!
+versão atualizada do Teste Poke API https://github.com/Jonaskest/Teste-PokeAPI
